@@ -6,7 +6,7 @@ The tree is built based on words read from an input file. Each node of the trie 
 A suffix is a substring that starts at any position in a word and continues up to its end. To simplify the implementation, the node also holds additional information, such as the string formed by covering the path from the root to the current path, the number of direct descendants and the level of the node. Each node has up to 27 children representing English alphabet characters, and edges denoting the characters. By convention, the '$' character is used to terminate a suffix.
 
 **COMPILATION**\
-The project includes a Makefile. To compile the project, type make in the terminal. This command will generate an executable named *out*. Each feature is executed with a separate command in the command line (see below)
+The project includes a Makefile. To compile the project, type *make* in the terminal. This command will generate an executable named *out*. Each feature is executed with a separate command in the command line (see below). To remove the executable and other compiled files, type *make clean* in the terminal.
 
 **FEATURES**
 For each feature, the project is run using a different command in the command line
